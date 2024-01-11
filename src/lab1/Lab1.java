@@ -99,11 +99,11 @@ public class Lab1 {
                 result += a + b;
                 x += a + b;
                 if (isOutOfRange(result)) {
-                    return x + " X is out of range of Integer";
+                    return x + " Last X is out of range of Integer";
                 }
             }
         }
-        return result + "";
+        return x + "";
     }
 
     public boolean isNumber(String input) {
